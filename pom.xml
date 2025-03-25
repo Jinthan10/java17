@@ -12,19 +12,12 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-     <repositories>
+    <repositories>
     <repository>
-        <id>nexus</id>
-        <url>http://192.168.68.117:8083/repository/maven-releases/</url>
-    </repository>
-</repositories>
-<distributionManagement>
-    <repository>
-        <id>nexus</id>
+        <id>snapshotnexus</id>
         <url>http://192.168.68.117:8083/repository/maven-snapshots/</url>
     </repository>
-</distributionManagement>    
-
+</repositories>   
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
