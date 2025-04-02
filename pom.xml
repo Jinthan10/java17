@@ -15,7 +15,7 @@
     <repositories>
     <repository>
         <id>myjar</id>
-        <url>http://192.168.68.117:8083/repository/my-jar-repo/</url>
+        <url>http://192.168.68.122:8083/repository/my-jar-repo/</url>
     </repository>
 </repositories>   
     <dependencies>
