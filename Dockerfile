@@ -1,5 +1,5 @@
 FROM openjdk:17-slim
-COPY /root/java17/targetjava-17-maven-project-1.0.0.jar /app/java-17-maven-project-1.0.0.jar
+COPY /root/java17/target/java-17-maven-project-1.0.0.jar /app/java-17-maven-project-1.0.0.jar
 WORKDIR /app
 EXPOSE 8088
 CMD ["java", "-jar", "java-17-maven-project-1.0.0.jar"]
